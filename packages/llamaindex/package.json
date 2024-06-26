@@ -1,11 +1,11 @@
 {
-  "name": "llamaindex",
+  "name": "@garviand/llamaindex",
   "description": "A fork of the LlamaindexTS repo llamaindex package",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "version": "0.4.5",
+  "version": "0.1.3",
   "license": "MIT",
   "type": "module",
   "keywords": [

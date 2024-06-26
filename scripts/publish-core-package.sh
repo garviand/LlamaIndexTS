@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PACKAGE_PATH="packages/core"
+PACKAGE_PATH="packages/llamaindex"
 PACKAGE_JSON="$PACKAGE_PATH/package.json"
 TEMP_PACKAGE_JSON="$PACKAGE_PATH/package.temp.json"
 BACKUP_PACKAGE_JSON="$PACKAGE_PATH/package.backup.json"
