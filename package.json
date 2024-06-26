@@ -1,5 +1,5 @@
 {
-  "name": "@garviand/llamaindex-monorepo",
+  "name": "@llamaindex/monorepo",
   "description": "A fork of the LlamaindexTS repo",
   "repository": {
     "type": "git",
