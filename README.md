@@ -1,5 +1,7 @@
 # LlamaIndex.TS
 
+This is a fork of the [LlamaIndexTS repo](https://github.com/run-llama/LlamaIndexTS)
+
 [![NPM Version](https://img.shields.io/npm/v/llamaindex)](https://www.npmjs.com/package/llamaindex)
 [![NPM License](https://img.shields.io/npm/l/llamaindex)](https://www.npmjs.com/package/llamaindex)
 [![NPM Downloads](https://img.shields.io/npm/dm/llamaindex)](https://www.npmjs.com/package/llamaindex)

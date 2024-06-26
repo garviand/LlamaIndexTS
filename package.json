@@ -1,6 +1,14 @@
 {
-  "name": "@llamaindex/monorepo",
-  "private": true,
+  "name": "@garviand/llamaindex-monorepo",
+  "description": "A fork of the LlamaindexTS repo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garviand/LlamaIndexTS"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "build": "turbo run build --filter=\"!docs\" --filter=\"!*-test\" --filter=\"!*-example\"",
     "build:release": "turbo run build lint test --filter=\"!docs\" --filter=\"!*-test\" --filter=\"!*-example\"",
@@ -16,7 +24,8 @@
     "release-snapshot": "pnpm run check-minor-version && pnpm run build:release && changeset publish --tag snapshot",
     "check-minor-version": "node ./scripts/check-minor-version.mjs",
     "new-version": "changeset version && pnpm run check-minor-version && pnpm format:write && pnpm run build:release",
-    "new-snapshot": "pnpm run build:release && changeset version --snapshot"
+    "new-snapshot": "pnpm run build:release && changeset version --snapshot",
+    "publish:core": "./scripts/publish-core-package.sh"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.5",

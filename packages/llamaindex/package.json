@@ -1,6 +1,11 @@
 {
-  "name": "llamaindex",
-  "version": "0.4.5",
+  "name": "@garviand/llamaindex",
+  "description": "A fork of the LlamaindexTS repo llamaindex package",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "0.2.0",
   "license": "MIT",
   "type": "module",
   "keywords": [
@@ -28,7 +33,7 @@
     "@grpc/grpc-js": "^1.10.8",
     "@huggingface/inference": "^2.7.0",
     "@llamaindex/cloud": "0.0.7",
-    "@llamaindex/env": "workspace:*",
+    "@llamaindex/env": "0.1.6",
     "@mistralai/mistralai": "^0.4.0",
     "@pinecone-database/pinecone": "^2.2.2",
     "@qdrant/js-client-rest": "^1.9.0",
@@ -147,8 +152,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/run-llama/LlamaIndexTS.git",
-    "directory": "packages/core"
+    "url": "https://github.com/@garviand/LlamaIndexTS.git",
+    "directory": "packages/llamaindex"
   },
   "scripts": {
     "lint": "eslint .",
